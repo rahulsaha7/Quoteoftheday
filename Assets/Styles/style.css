@@ -1,0 +1,99 @@
+h2,h3,h1 {
+    color:white;
+}
+.header{
+    background-color: #989898;
+    height: 60px;
+}
+
+.title-div{
+    height: calc(100vh - 60px);
+    width: 100%;
+    overflow: scroll;
+    background-color: black;
+}
+
+.quote-holder{
+    border-radius: 10px;
+    background-color: white;
+}
+.total-quotes-add {
+        height: 150px;
+        width: 150px;
+        background-color: grey;
+        border-radius: 10px;
+}
+
+.sidebar{
+    background-color: gray;
+    width: 20%;
+    height: calc(100vh - 60px);
+    position: relative;
+    top:0;
+    left: 0;
+}
+
+ul {
+    list-style-type:none ;
+}
+
+a.menu-links{
+    color: white;
+}
+
+li:hover{
+    border-radius: 10px;
+    background-color: black;
+}
+
+a.menu-links:hover{
+   
+    color: white;
+}
+
+.middle-content{
+    margin-right:20%;
+}
+.fa-quote-left{
+    top: -60px;
+    color:#716a6a;
+}
+
+.who-said-1::before{
+    content: "";
+    display: block;
+position: relative;
+width: 10px;
+height: 10px;
+margin-left: 10px;
+margin-top: 10px;
+border-radius: 50px;
+
+background: #fff;
+}
+
+.who-said::before{
+    content: "";
+    display: block;
+position: relative;
+width: 8px;
+height: 8px;
+margin-left: 20px;
+margin-top: 10px;
+border-radius: 50px;
+
+background: #fff;
+}
+
+
+.image-author{
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+}
+.image-author > img{
+    height: 100%;
+    width: 100%;
+}
